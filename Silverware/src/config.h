@@ -118,14 +118,14 @@
 //#define FN_INVERTED CH_OFF //for brushless only
 
 // aux1 channel starts on if this is defined, otherwise off.
-#define AUX1_START_ON
+//#define AUX1_START_ON
 
 // improves reception and enables trims if used
 // trims are incompatible with DEVO TX when used
-//#define USE_STOCK_TX
+#define USE_STOCK_TX
 
 // automatically remove center bias ( needs throttle off for 1 second )
-//#define STOCK_TX_AUTOCENTER
+#define STOCK_TX_AUTOCENTER
 
 // enable motor filter - select one
 // motorfilter1: hanning 3 sample fir filter
